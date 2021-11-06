@@ -1,0 +1,40 @@
+.header{
+    padding: 40px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+
+
+.header__link{
+    text-decoration: underline;
+    color: rgb(150, 172, 172);
+    font-size: 22px;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    column-gap: 20px;
+}
+
+.nav__item{
+    font-size: 22px;
+    color: cadetblue;
+}
+
+.header__select{
+    width: 100%;
+    max-width: 100px;
+    padding: 6px;
+    font-size: 18px;
+    color: rgb(150, 172, 172);
+    border: 2px solid blue;
+}
